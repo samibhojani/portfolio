@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sami Bhojani - Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Sami Bhojani</h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-content">
+        <section class="hero">
+            <div class="hero-content">
+              <div class="info">
+                <h1>Muhammad Sami Bhojani</h1>
+                <p>Software Project Manager | ERP Consultant | SQA Expert</p>
+                <div class="cta-buttons">
+                  <button onclick="location.href='#contact'">Hire Me</button>
+                  <button onclick="location.href='#projects'">View My Work</button>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="/images/s-removebg-preview.png" alt="Muhammad Sami Bhojani">
+              </div>
+            </div>
+          </section>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I specialize in ERP implementations, configurations, and consultancy. With 8 years of ERP experience and 1 year in software project management, I’ve led numerous projects across various industries like LLCs, law firms, real estate, e-commerce, and more.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <i class="fas fa-cogs"></i>
+        <h3>ERP Consultancy</h3>
+        <p>End-to-end implementation and maintenance of ERP systems tailored to your business needs.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>Custom web solutions for LLCs, law firms, real estate, e-commerce, and more.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Mobile App Development</h3>
+        <p>MERN-based mobile applications for transport, real estate, and consultancy businesses.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-search"></i>
+        <h3>SQA Testing</h3>
+        <p>Ensuring your software is bug-free with professional QA practices and automated tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <h3>ERP Projects</h3>
+        <p>SCM, HRM, library, canteen, and healthcare management systems.</p>
+      </div>
+      <div class="project-card">
+        <h3>Web Projects</h3>
+        <p>LLCs, law firms, real estate, photography, and online stores.</p>
+      </div>
+      <div class="project-card">
+        <h3>MERN Projects</h3>
+        <p>Real estate, transport, and consultancy management systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:msammi96@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="How can I help you?" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Muhammad Sami Bhojani</p>
+  </footer>  <script defer src="/js/script.js"></script>
+
+</body>
+</html>
